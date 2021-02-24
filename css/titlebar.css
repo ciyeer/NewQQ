@@ -1,0 +1,100 @@
+/*头像图标label圆角*/
+QLabel#label_Avantar
+{
+    border-radius: 8px;
+    border-image: url(":/css/Aventer.png");
+}
+
+QLabel#label_logo
+{
+    border-image: url(:/css/Logo.png);
+}
+
+QPushButton#LoginBtn
+{
+    border-style:none;
+    border:0px solid #242424;
+    color:#DCDCDC;
+    padding:5px;
+    height:55;
+    width : 350;
+    border-radius:7px;
+    background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #646464,stop:1 #525252);
+}
+
+QPushButton#LoginBtn:hover
+{
+    background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #484848,stop:1 #383838);
+}
+
+QPushButton#LoginBtn:pressed
+{
+    background-color:#3B3B98
+}
+
+QPushButton#MinBtn
+{
+    border-image: url(:/css/Min/min_normal.png);
+}
+
+QPushButton#MinBtn:hover
+{
+    border-image: url(:/css/Min/min_hover.png);
+}
+
+QPushButton#MinBtn:pressed
+{
+    border-image: url(:/css/Min/min_pressed.png);
+}
+
+QPushButton#CloseBtn
+{
+    border-image: url(:/css/close/close_normal.png);
+}
+
+QPushButton#CloseBtn:hover
+{
+    border-image: url(:/css/close/close_hover.png);
+}
+
+QPushButton#CloseBtn:pressed
+{
+    border-image: url(:/css/close/close_pressed.png);
+}
+
+QLineEdit
+{
+    border-radius:7px;
+    border:0px;
+}
+
+QLabel#label_Text
+{
+    text: "TIM"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

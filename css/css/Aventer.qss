@@ -1,0 +1,85 @@
+
+/*QWidget#Bg_Widget
+{
+    border-image: url(":/img/bg.png");
+}*/
+
+QWidget#TitleBar
+{
+    border-radius: 8px;
+}
+
+QWidget#StatusBar
+{
+    border-radius: 8px;
+}
+
+QLabel#label_Aventer
+{
+    border-radius: 8px;
+    border-image: url(":/img/Aventer.png");
+}
+
+QLabel#LogoLabel
+{
+    border-image: url(":/img/Logo.png");
+}
+
+QPushButton#loginBtn
+{
+    background-color:#2d98da;
+    border-radius: 8px;
+    color:white;
+    border:0px;
+}
+
+QPushButton#loginBtn:hover
+{
+    background-color:#8c7ae6
+}
+
+QPushButton#loginBtn:pressed
+{  
+    background-color:#3B3B98
+}  
+
+QPushButton#CloseBtn
+{
+    border-image: url(":/img/close/close_normal.png");
+}
+
+QPushButton#CloseBtn:pressed
+{
+    border-image: url(":/img/close/close_pressed.png");
+}
+
+QPushButton#CloseBtn:hover
+{
+    border-image: url(":/img/close/close_hover.png");
+}
+
+QPushButton#MiniBtn
+{
+    border-image: url(":/img/Min/min_normal.png");
+}
+
+QPushButton#MiniBtn:pressed
+{
+    border-image: url(":/img/Min/min_pressed.png");
+}
+
+QPushButton#MiniBtn:hover
+{
+    border-image: url(":/img/Min/min_hover.png");
+}
+
+QLineEdit#name_lineEdit
+{
+    border-radius: 8px;
+}
+
+QLineEdit#passwd_lineEdit
+{
+    border-radius: 8px;
+}
+

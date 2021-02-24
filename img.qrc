@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>css/Logo.png</file>
+        <file>css/Aventer.png</file>
+        <file>css/bg.png</file>
+        <file>css/centerwidget.css</file>
+        <file>css/clion.ico</file>
+        <file>css/statusbar.css</file>
+        <file>css/titlebar.css</file>
+        <file>css/close/close_hover.png</file>
+        <file>css/close/close_normal.png</file>
+        <file>css/close/close_pressed.png</file>
+        <file>css/Min/min_hover.png</file>
+        <file>css/Min/min_normal.png</file>
+        <file>css/Min/min_pressed.png</file>
+    </qresource>
+</RCC>
